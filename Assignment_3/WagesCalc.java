@@ -22,7 +22,7 @@ class Wages extends Worker {
         super(name, basic);
         this.hrs = hrs;
         this.rate = rate;
-        wage = 0.0;
+        wage = 0.00;
     }
 
     public double overtime() {
